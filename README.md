@@ -24,19 +24,27 @@
 
  Задание 1
  
+ SELECT DISTINCT district FROM sakila.address WHERE district LIKE 'K%a' AND locate(' ', district) =0
+ 
  ![image](https://user-images.githubusercontent.com/114281054/213119915-0e263d81-bb1d-4b24-b043-b7802b2c45aa.png)
 
 
  Задание 2
+ 
+ SELECT * FROM sakila.payment WHERE payment_date BETWEEN ('2005-06-15') AND ('2005-06-19') AND amount > 10
  
  ![image](https://user-images.githubusercontent.com/114281054/213121147-00d74488-3bd3-4ad4-9b2c-093f3f7384e8.png)
 
 
  Задание 3
  
+ SELECT * FROM sakila.rental ORDER BY rental_date DESC 
+ 
  ![image](https://user-images.githubusercontent.com/114281054/213121481-db702b83-d761-444e-bf62-a741f418c7b9.png)
 
 
  Задание 4
+ 
+ SELECT replace(lower(first_name), 'll', 'pp'), lower(last_name) FROM sakila.customer WHERE active = '1' AND first_name IN ('Kelly') OR active = '1' AND first_name IN ('Willie')
  
  ![image](https://user-images.githubusercontent.com/114281054/213122710-ae586120-6e44-4387-bfb5-0b785d07e173.png)
