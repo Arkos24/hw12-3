@@ -1,52 +1,42 @@
-# Домашние задания по курсу «Базы данных и информационная безопасность»
-
-В этом репозитории расположены ваши домашние задания к каждой лекции. 
-
-Обязательными к выполнению являются задачи без указания звёздочки. Их выполнение необходимо для получения зачёта и диплома о профессиональной переподготовке.
-
-Задачи со звёздочкой (*) являются дополнительными задачами или задачами повышенной сложности. Они не обязательны к выполнению, но помогут вам глубже понять тему.
-
-Любые вопросы по решению задач задавайте в чате учебной группы, ссылку вы найдёте в письме на вашей электронной почте.
-
-## Модуль 11. Системы хранения и передачи данных
-
-11.1. [Базы данных, их типы](https://github.com/netology-code/sdb-homeworks/blob/main/11-01.md).
-
-11.2. [Кеширование Redis/memcached](https://github.com/netology-code/sdb-homeworks/blob/main/11-02.md).
-
-11.3. [ELK](https://github.com/netology-code/sdb-homeworks/blob/main/11-03.md).
-
-11.4. [Очереди RabbitMQ](https://github.com/netology-code/sdb-homeworks/blob/main/11-04.md).
+# Домашнее задание к занятию "Базы данных" - Мельников Семен
 
 
-## Модуль 12. Реляционные базы данных
+### Инструкция по выполнению домашнего задания
 
-12.1. [Базы данных](https://github.com/netology-code/sdb-homeworks/blob/main/12-01.md).
+   1. Сделайте `fork` данного репозитория к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/git-hw или  https://github.com/имя-вашего-репозитория/7-1-ansible-hw).
+   2. Выполните клонирование данного репозитория к себе на ПК с помощью команды `git clone`.
+   3. Выполните домашнее задание и заполните у себя локально этот файл README.md:
+      - впишите вверху название занятия и вашу фамилию и имя
+      - в каждом задании добавьте решение в требуемом виде (текст/код/скриншоты/ссылка)
+      - для корректного добавления скриншотов воспользуйтесь [инструкцией "Как вставить скриншот в шаблон с решением](https://github.com/netology-code/sys-pattern-homework/blob/main/screen-instruction.md)
+      - при оформлении используйте возможности языка разметки md (коротко об этом можно посмотреть в [инструкции  по MarkDown](https://github.com/netology-code/sys-pattern-homework/blob/main/md-instruction.md))
+   4. После завершения работы над домашним заданием сделайте коммит (`git commit -m "comment"`) и отправьте его на Github (`git push origin`);
+   5. Для проверки домашнего задания преподавателем в личном кабинете прикрепите и отправьте ссылку на решение в виде md-файла в вашем Github.
+   6. Любые вопросы по выполнению заданий спрашивайте в чате учебной группы и/или в разделе “Вопросы по заданию” в личном кабинете.
+   
+Желаем успехов в выполнении домашнего задания!
+   
+### Дополнительные материалы, которые могут быть полезны для выполнения задания
 
-12.2. [Работа с данными (DDL/DML)](https://github.com/netology-code/sdb-homeworks/blob/main/12-02.md).
+1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
-12.3. [SQL. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md).
+---
 
-12.4. [SQL. Часть 2](https://github.com/netology-code/sdb-homeworks/blob/main/12-04.md).
-
-12.5. [Индексы](https://github.com/netology-code/sdb-homeworks/blob/main/12-05.md).
-
-12.6. [Репликация и масштабирование. Часть 1](https://github.com/netology-code/sdb-homeworks/blob/main/12-06.md).
-
-12.7. [Репликация и масштабирование. Часть 2](https://github.com/netology-code/sdb-homeworks/blob/main/12-07.md).
-
-12.8. [Резервное копирование](https://github.com/netology-code/sdb-homeworks/blob/main/12-08.md).
-
-12.9. [Базы данных в облаке](https://github.com/netology-code/sdb-homeworks/blob/main/12-09.md).
+ Задание 1
+ 
+ ![image](https://user-images.githubusercontent.com/114281054/213119915-0e263d81-bb1d-4b24-b043-b7802b2c45aa.png)
 
 
-## Модуль 13. Информационная безопасность
+ Задание 2
+ 
+ ![image](https://user-images.githubusercontent.com/114281054/213121147-00d74488-3bd3-4ad4-9b2c-093f3f7384e8.png)
 
-13.1. [Уязвимости и атаки на информационные системы](https://github.com/netology-code/sdb-homeworks/blob/main/13-01.md).
 
-13.2. [Защита хоста](https://github.com/netology-code/sdb-homeworks/blob/main/13-02.md).
+ Задание 3
+ 
+ ![image](https://user-images.githubusercontent.com/114281054/213121481-db702b83-d761-444e-bf62-a741f418c7b9.png)
 
-13.3. [Защита сети](https://github.com/netology-code/sdb-homeworks/blob/main/13-03.md).
 
-13.4. [Best practices современной информационной безопасности]().
-
+ Задание 4
+ 
+ ![image](https://user-images.githubusercontent.com/114281054/213122710-ae586120-6e44-4387-bfb5-0b785d07e173.png)
