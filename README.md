@@ -31,9 +31,11 @@
 
  Задание 2
  
- SELECT * FROM sakila.payment WHERE payment_date BETWEEN ('2005-06-15') AND ('2005-06-19') AND amount > 10
+ SELECT * FROM sakila.payment WHERE date(payment_date) BETWEEN '2005-06-15' AND '2005-06-18' AND amount > 10
  
- ![image](https://user-images.githubusercontent.com/114281054/213121147-00d74488-3bd3-4ad4-9b2c-093f3f7384e8.png)
+ ![image](https://user-images.githubusercontent.com/114281054/213905760-91e84c93-5e5f-448a-af82-420e598ff41b.png)
+ 
+
 
 
  Задание 3
